@@ -1,8 +1,0 @@
-bool overheat
-bool overvoltage
-bool undervoltage
-bool short_circuit
-bool emergency_stop
-bool motor_or_sensor_setup_fault
-bool mosfet_failure
-bool default_config_loaded_at_startup
