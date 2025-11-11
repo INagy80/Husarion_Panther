@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/FaultFlag.msg
+// generated code does not contain a copyright notice
+
+
+module husarion_ugv_msgs {
+  module msg {
+    struct FaultFlag {
+      boolean overheat;
+
+      boolean overvoltage;
+
+      boolean undervoltage;
+
+      boolean short_circuit;
+
+      boolean emergency_stop;
+
+      boolean motor_or_sensor_setup_fault;
+
+      boolean mosfet_failure;
+
+      boolean default_config_loaded_at_startup;
+    };
+  };
+};

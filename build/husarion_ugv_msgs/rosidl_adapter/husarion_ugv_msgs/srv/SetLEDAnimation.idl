@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from husarion_ugv_msgs/srv/SetLEDAnimation.srv
+// generated code does not contain a copyright notice
+
+#include "husarion_ugv_msgs/msg/LEDAnimation.idl"
+
+module husarion_ugv_msgs {
+  module srv {
+    struct SetLEDAnimation_Request {
+      husarion_ugv_msgs::msg::LEDAnimation animation;
+
+      boolean repeating;
+    };
+    struct SetLEDAnimation_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

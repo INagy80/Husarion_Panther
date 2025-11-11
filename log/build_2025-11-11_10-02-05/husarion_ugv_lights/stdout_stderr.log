@@ -1,0 +1,124 @@
+[ 14%] Built target animation_plugins
+[ 23%] Built target lights_driver_node
+[ 33%] Built target lights_controller_node
+[ 42%] Built target lights_controller_parameters
+[ 52%] Built target lights_driver_parameters
+[ 85%] Built target lights_controller_node_component
+[100%] Built target lights_driver_node_component
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights//plugins.xml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/husarion_ugv_lights/lights_driver_node
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/husarion_ugv_lights/lights_controller_node
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_action_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_action_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_ready_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_ready_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/battery_charged_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/battery_charged_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/blinker.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charger_inserted_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charger_inserted_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charging_battery_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charging_battery_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/critical_battery.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/empty.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/error.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/estop_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/estop_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/goal_achieved_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/goal_achieved_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/low_battery.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/lynx_animations.svg
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/manual_action_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/manual_action_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/ready_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/ready_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_action_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_action_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_ready_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_ready_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/battery_charged_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/battery_charged_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/blinker.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charger_inserted_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charger_inserted_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charging_battery_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charging_battery_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/critical_battery.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/empty.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/error.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/estop_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/estop_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/goal_achieved_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/goal_achieved_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/low_battery.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/manual_action_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/manual_action_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/panther_animations.svg
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/ready_front.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/ready_rear.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/lynx_animations.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/lynx_driver.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/panther_animations.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/panther_driver.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/user_animations.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/launch/lights.launch.py
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/files/animation.png
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/integration/husarion_ugv_lights.test.py
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_animation.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_image_animation.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_moving_image_animation.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_animation.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_panel.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_segment.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_segment_converter.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_segment_layer_interface.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_apa102.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_lights_controller_node.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_lights_driver_node.cpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/animation.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/image_animation.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/moving_image_animation.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/apa102.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_animation.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_panel.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_segment.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_converter.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_layer.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_layer_interface.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_queue_layer.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/lights_controller_node.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/lights_driver_node.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/library_path.sh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/library_path.dsv
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights//plugins.xml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_lights
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_lights
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/path.sh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/path.dsv
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.bash
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.sh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.zsh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.dsv
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/package.dsv
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/packages/husarion_ugv_lights
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/husarion_ugv_lights__pluginlib__plugin/husarion_ugv_lights
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/rclcpp_components/husarion_ugv_lights
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/husarion_ugv_lightsConfig.cmake
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/husarion_ugv_lightsConfig-version.cmake
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/package.xml
+-- Up-to-date: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/libanimation_plugins.so
+-- Up-to-date: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_driver_node_component.so
+-- Up-to-date: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_controller_node_component.so
+-- Up-to-date: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport.cmake
+-- Up-to-date: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport-release.cmake

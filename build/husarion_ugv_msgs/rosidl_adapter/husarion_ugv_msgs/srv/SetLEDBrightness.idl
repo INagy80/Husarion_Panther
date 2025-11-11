@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from husarion_ugv_msgs/srv/SetLEDBrightness.srv
+// generated code does not contain a copyright notice
+
+
+module husarion_ugv_msgs {
+  module srv {
+    struct SetLEDBrightness_Request {
+      float data;
+    };
+    struct SetLEDBrightness_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

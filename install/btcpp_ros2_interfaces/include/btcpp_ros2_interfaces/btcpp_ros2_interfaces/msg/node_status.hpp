@@ -1,0 +1,1 @@
+/home/inagy/husarion_ws/build/btcpp_ros2_interfaces/rosidl_generator_cpp/btcpp_ros2_interfaces/msg/node_status.hpp

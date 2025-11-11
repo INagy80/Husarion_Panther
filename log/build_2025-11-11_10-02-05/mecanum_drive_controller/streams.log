@@ -1,0 +1,37 @@
+[0.011s] Invoking command in '/home/inagy/husarion_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inagy/husarion_ws/build/mecanum_drive_controller -- -j4 -l4
+[0.122s] [ 33%] Built target mecanum_drive_controller_parameters
+[0.215s] [100%] Built target mecanum_drive_controller
+[0.235s] Invoked command in '/home/inagy/husarion_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inagy/husarion_ws/build/mecanum_drive_controller -- -j4 -l4
+[0.236s] Invoking command in '/home/inagy/husarion_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inagy/husarion_ws/build/mecanum_drive_controller
+[0.261s] -- Install configuration: "Release"
+[0.266s] -- Execute custom install script
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_plugin.xml
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[0.266s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[0.267s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[0.267s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[0.272s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[0.272s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[0.272s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[0.272s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[0.273s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[0.273s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[0.273s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[0.273s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[0.273s] -- Symlinking: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[0.309s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[0.309s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[0.309s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.309s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.314s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[0.314s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[0.314s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[0.314s] -- Up-to-date: /home/inagy/husarion_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[0.314s] -- Up-to-date: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[0.314s] -- Up-to-date: /home/inagy/husarion_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-release.cmake
+[0.318s] Invoked command in '/home/inagy/husarion_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inagy/husarion_ws/build/mecanum_drive_controller

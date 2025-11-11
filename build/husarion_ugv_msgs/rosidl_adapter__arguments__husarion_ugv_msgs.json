@@ -1,0 +1,20 @@
+{
+  "package_name": "husarion_ugv_msgs",
+  "non_idl_tuples": [
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/ChargingStatus.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/DriverState.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/DriverStateNamed.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/FaultFlag.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/IOState.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/LEDAnimation.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/LEDAnimationQueue.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/LEDImageAnimation.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/RobotDriverState.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/RuntimeError.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/ScriptFlag.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:msg/SystemStatus.msg",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:srv/SetLEDAnimation.srv",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:srv/SetLEDBrightness.srv",
+    "/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_msgs:srv/SetLEDImageAnimation.srv"
+  ]
+}

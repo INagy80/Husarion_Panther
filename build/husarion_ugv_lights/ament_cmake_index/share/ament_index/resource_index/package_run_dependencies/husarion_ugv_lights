@@ -1,0 +1,1 @@
+ament_index_cpp;diagnostic_updater;generate_parameter_library;husarion_ugv_msgs;husarion_ugv_utils;image_transport;libpng-dev;pluginlib;rclcpp;rclcpp_components;sensor_msgs;std_srvs;ament_cmake_gtest;google-mock;ros_testing

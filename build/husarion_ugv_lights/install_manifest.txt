@@ -1,0 +1,5 @@
+/home/inagy/husarion_ws/install/husarion_ugv_lights/lib/libanimation_plugins.so
+/home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_driver_node_component.so
+/home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_controller_node_component.so
+/home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport.cmake
+/home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport-release.cmake

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "husarion_ugv_msgs/msg/LEDAnimation",
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "type_id": 5,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "param",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "husarion_ugv_msgs/msg/LEDAnimation",
+      "hash_string": "RIHS01_d0c203c21086a36d2c0e61d15a16b5d35c791a880ba4d811978e0b87d7e87a93"
+    }
+  ]
+}

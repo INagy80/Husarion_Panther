@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/LEDAnimation.msg
+// generated code does not contain a copyright notice
+
+
+module husarion_ugv_msgs {
+  module msg {
+    module LEDAnimation_Constants {
+      const uint16 E_STOP = 0;
+      const uint16 READY = 1;
+      const uint16 ERROR = 2;
+      const uint16 NO_ERROR = 3;
+      const uint16 MANUAL_ACTION = 4;
+      const uint16 LOW_BATTERY = 5;
+      const uint16 CRITICAL_BATTERY = 6;
+      const uint16 CHARGING_BATTERY = 7;
+      const uint16 BATTERY_CHARGED = 8;
+      const uint16 CHARGER_INSERTED = 9;
+      const uint16 BATTERY_NOMINAL = 10;
+      const uint16 AUTONOMOUS_READY = 11;
+      const uint16 AUTONOMOUS_ACTION = 12;
+      const uint16 GOAL_ACHIEVED = 13;
+      const uint16 BLINKER_LEFT = 14;
+      const uint16 BLINKER_RIGHT = 15;
+    };
+    struct LEDAnimation {
+      uint16 id;
+
+      string param;
+    };
+  };
+};

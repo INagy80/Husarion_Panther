@@ -1,0 +1,15 @@
+/home/inagy/husarion_ws/install/husarion_ugv/share/ament_index/resource_index/package_run_dependencies/husarion_ugv
+/home/inagy/husarion_ws/install/husarion_ugv/share/ament_index/resource_index/parent_prefix_path/husarion_ugv
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/ament_prefix_path.sh
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/ament_prefix_path.dsv
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/path.sh
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/environment/path.dsv
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.bash
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.sh
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.zsh
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/local_setup.dsv
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/package.dsv
+/home/inagy/husarion_ws/install/husarion_ugv/share/ament_index/resource_index/packages/husarion_ugv
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/cmake/husarion_ugvConfig.cmake
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/cmake/husarion_ugvConfig-version.cmake
+/home/inagy/husarion_ws/install/husarion_ugv/share/husarion_ugv/package.xml

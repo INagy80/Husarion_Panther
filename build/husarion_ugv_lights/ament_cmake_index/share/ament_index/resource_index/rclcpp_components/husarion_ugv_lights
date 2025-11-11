@@ -1,0 +1,2 @@
+husarion_ugv_lights::LightsDriverNode;lib/liblights_driver_node_component.so
+husarion_ugv_lights::LightsControllerNode;lib/liblights_controller_node_component.so

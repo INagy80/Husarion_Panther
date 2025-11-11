@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/husarion_ugv_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "husarion_ugv_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/husarion_ugv_msgs")

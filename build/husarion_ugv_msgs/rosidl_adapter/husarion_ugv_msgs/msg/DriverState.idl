@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/DriverState.msg
+// generated code does not contain a copyright notice
+
+#include "husarion_ugv_msgs/msg/FaultFlag.idl"
+#include "husarion_ugv_msgs/msg/RuntimeError.idl"
+#include "husarion_ugv_msgs/msg/ScriptFlag.idl"
+
+module husarion_ugv_msgs {
+  module msg {
+    struct DriverState {
+      float voltage;
+
+      float current;
+
+      float temperature;
+
+      float heatsink_temperature;
+
+      husarion_ugv_msgs::msg::FaultFlag fault_flag;
+
+      husarion_ugv_msgs::msg::ScriptFlag script_flag;
+
+      husarion_ugv_msgs::msg::RuntimeError channel_1_motor_runtime_error;
+
+      husarion_ugv_msgs::msg::RuntimeError channel_2_motor_runtime_error;
+
+      boolean motor_states_data_timed_out;
+
+      boolean driver_state_data_timed_out;
+
+      boolean can_error;
+
+      boolean heartbeat_timeout;
+    };
+  };
+};

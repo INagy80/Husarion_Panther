@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-48690fa8ec5b20b94e23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "behaviortree_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "behaviortree_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-behaviortree_ros2-Release-3f49906aac675225e797.json",
+					"name" : "behaviortree_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "behaviortree_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-behaviortree_ros2_uninstall-Release-06e772095e76c29f8f0c.json",
+					"name" : "behaviortree_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_executor_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_executor_parameters-Release-6f76a189d1e962bb3f2a.json",
+					"name" : "bt_executor_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5bcd0d519bb4d3968482.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/inagy/husarion_ws/build/behaviortree_ros2",
+		"source" : "/home/inagy/husarion_ws/src/behaviortree_ros2/behaviortree_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

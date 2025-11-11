@@ -1,0 +1,373 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "husarion_ugv_msgs/msg/DriverStateNamed",
+      "fields": [
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "state",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "husarion_ugv_msgs/msg/DriverState"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "husarion_ugv_msgs/msg/DriverState",
+        "fields": [
+          {
+            "name": "voltage",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "current",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "temperature",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "heatsink_temperature",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "fault_flag",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "husarion_ugv_msgs/msg/FaultFlag"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "script_flag",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "husarion_ugv_msgs/msg/ScriptFlag"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "channel_1_motor_runtime_error",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "husarion_ugv_msgs/msg/RuntimeError"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "channel_2_motor_runtime_error",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "husarion_ugv_msgs/msg/RuntimeError"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "motor_states_data_timed_out",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "driver_state_data_timed_out",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "can_error",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "heartbeat_timeout",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "husarion_ugv_msgs/msg/FaultFlag",
+        "fields": [
+          {
+            "name": "overheat",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "overvoltage",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "undervoltage",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "short_circuit",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "emergency_stop",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "motor_or_sensor_setup_fault",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "mosfet_failure",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "default_config_loaded_at_startup",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "husarion_ugv_msgs/msg/RuntimeError",
+        "fields": [
+          {
+            "name": "amps_limit_active",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "motor_stall",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "loop_error",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "safety_stop_active",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "forward_limit_triggered",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "reverse_limit_triggered",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "amps_trigger_activated",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "husarion_ugv_msgs/msg/ScriptFlag",
+        "fields": [
+          {
+            "name": "loop_error",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "encoder_disconnected",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "amp_limiter",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "husarion_ugv_msgs/msg/DriverStateNamed",
+      "hash_string": "RIHS01_7d945206db2046643fe804e292989169525ddbd776bf0b6d278812556e22a571"
+    },
+    {
+      "type_name": "husarion_ugv_msgs/msg/DriverState",
+      "hash_string": "RIHS01_0a86620013208a58db4fa7685da5fa4979cb9b2b5c877ece364bc38946a5797a"
+    },
+    {
+      "type_name": "husarion_ugv_msgs/msg/FaultFlag",
+      "hash_string": "RIHS01_c636ba2e67069a744ae3a021f669456aaf1b0d17bdbaddc20bd33548cde54c55"
+    },
+    {
+      "type_name": "husarion_ugv_msgs/msg/RuntimeError",
+      "hash_string": "RIHS01_bf3ed157389cdd753990dfb74aa84595dce8c540d6ed79b428834dbdf754fc99"
+    },
+    {
+      "type_name": "husarion_ugv_msgs/msg/ScriptFlag",
+      "hash_string": "RIHS01_1180cb66d9e96b1ccfd5f5268aa09e6eb9751f693025b58a91a5774d45e148a0"
+    }
+  ]
+}

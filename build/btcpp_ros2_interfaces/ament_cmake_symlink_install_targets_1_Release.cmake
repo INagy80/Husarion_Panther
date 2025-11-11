@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/inagy/husarion_ws/build/btcpp_ros2_interfaces/rosidl_generator_py/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/btcpp_ros2_interfaces")

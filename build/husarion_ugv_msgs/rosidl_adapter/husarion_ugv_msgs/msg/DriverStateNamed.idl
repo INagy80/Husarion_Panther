@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/DriverStateNamed.msg
+// generated code does not contain a copyright notice
+
+#include "husarion_ugv_msgs/msg/DriverState.idl"
+
+module husarion_ugv_msgs {
+  module msg {
+    module DriverStateNamed_Constants {
+      const string NAME_DEFAULT = "default";
+      const string NAME_FRONT = "front";
+      const string NAME_REAR = "rear";
+    };
+    struct DriverStateNamed {
+      string name;
+
+      husarion_ugv_msgs::msg::DriverState state;
+    };
+  };
+};

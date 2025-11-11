@@ -1,0 +1,3 @@
+source;share/husarion_ugv_lights/environment/ament_prefix_path.sh
+source;share/husarion_ugv_lights/environment/library_path.sh
+source;share/husarion_ugv_lights/environment/path.sh

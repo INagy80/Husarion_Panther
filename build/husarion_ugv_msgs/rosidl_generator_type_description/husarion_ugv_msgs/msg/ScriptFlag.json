@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "husarion_ugv_msgs/msg/ScriptFlag",
+      "fields": [
+        {
+          "name": "loop_error",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "encoder_disconnected",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "amp_limiter",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "husarion_ugv_msgs/msg/ScriptFlag",
+      "hash_string": "RIHS01_1180cb66d9e96b1ccfd5f5268aa09e6eb9751f693025b58a91a5774d45e148a0"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "package_name": "btcpp_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/inagy/husarion_ws/src/behaviortree_ros2/btcpp_ros2_interfaces:msg/NodeStatus.msg",
+    "/home/inagy/husarion_ws/src/behaviortree_ros2/btcpp_ros2_interfaces:action/ExecuteTree.action",
+    "/home/inagy/husarion_ws/src/behaviortree_ros2/btcpp_ros2_interfaces:action/Sleep.action"
+  ]
+}

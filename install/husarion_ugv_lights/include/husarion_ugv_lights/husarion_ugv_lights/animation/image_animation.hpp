@@ -1,0 +1,1 @@
+/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights/include/husarion_ugv_lights/animation/image_animation.hpp

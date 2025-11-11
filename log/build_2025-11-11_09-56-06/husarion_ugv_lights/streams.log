@@ -1,0 +1,191 @@
+[0.027s] Invoking command in '/home/inagy/husarion_ws/build/husarion_ugv_lights': AMENT_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3:/home/inagy/turtlebot3_ws/install/turtlebot3_simulations:/home/inagy/turtlebot3_ws/install/turtlebot3_bringup:/home/inagy/turtlebot3_ws/install/turtlebot3_node:/home/inagy/turtlebot3_ws/install/turtlebot3_navigation2:/home/inagy/turtlebot3_ws/install/turtlebot3_fake_node:/home/inagy/turtlebot3_ws/install/turtlebot3_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3_gazebo:/home/inagy/turtlebot3_ws/install/turtlebot3_description:/home/inagy/turtlebot3_ws/install/turtlebot3_cartographer:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/inagy/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inagy/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/inagy/husarion_ws/install/husarion_ugv_lights
+[0.128s] -- The C compiler identification is GNU 13.3.0
+[0.228s] -- The CXX compiler identification is GNU 13.3.0
+[0.245s] -- Detecting C compiler ABI info
+[0.360s] -- Detecting C compiler ABI info - done
+[0.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.379s] -- Detecting C compile features
+[0.380s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.546s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.560s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.769s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.892s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.975s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[0.978s] -- Found diagnostic_updater: 4.2.6 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[1.081s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.103s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.351s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.359s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.473s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.510s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.638s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.649s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.701s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.755s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.853s] -- Found husarion_ugv_msgs: 2.3.1 (/home/inagy/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+[1.874s] -- Found husarion_ugv_utils: 2.3.1 (/home/inagy/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+[2.176s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.229s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.408s] -- Configuring done (2.4s)
+[2.466s] -- Generating done (0.0s)
+[2.480s] -- Build files have been written to: /home/inagy/husarion_ws/build/husarion_ugv_lights
+[2.501s] Invoked command in '/home/inagy/husarion_ws/build/husarion_ugv_lights' returned '0': AMENT_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3:/home/inagy/turtlebot3_ws/install/turtlebot3_simulations:/home/inagy/turtlebot3_ws/install/turtlebot3_bringup:/home/inagy/turtlebot3_ws/install/turtlebot3_node:/home/inagy/turtlebot3_ws/install/turtlebot3_navigation2:/home/inagy/turtlebot3_ws/install/turtlebot3_fake_node:/home/inagy/turtlebot3_ws/install/turtlebot3_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3_gazebo:/home/inagy/turtlebot3_ws/install/turtlebot3_description:/home/inagy/turtlebot3_ws/install/turtlebot3_cartographer:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/inagy/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inagy/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/inagy/husarion_ws/install/husarion_ugv_lights
+[2.502s] Invoking command in '/home/inagy/husarion_ws/build/husarion_ugv_lights': AMENT_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3:/home/inagy/turtlebot3_ws/install/turtlebot3_simulations:/home/inagy/turtlebot3_ws/install/turtlebot3_bringup:/home/inagy/turtlebot3_ws/install/turtlebot3_node:/home/inagy/turtlebot3_ws/install/turtlebot3_navigation2:/home/inagy/turtlebot3_ws/install/turtlebot3_fake_node:/home/inagy/turtlebot3_ws/install/turtlebot3_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3_gazebo:/home/inagy/turtlebot3_ws/install/turtlebot3_description:/home/inagy/turtlebot3_ws/install/turtlebot3_cartographer:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/inagy/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inagy/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/inagy/husarion_ws/build/husarion_ugv_lights -- -j4 -l4
+[2.613s] [  4%] [32mBuilding CXX object CMakeFiles/animation_plugins.dir/src/animation/image_animation.cpp.o[0m
+[12.586s] [  9%] [32mBuilding CXX object CMakeFiles/animation_plugins.dir/src/animation/moving_image_animation.cpp.o[0m
+[18.799s] [ 14%] [32m[1mLinking CXX shared library libanimation_plugins.so[0m
+[18.980s] [ 14%] Built target animation_plugins
+[19.004s] [ 19%] [32mBuilding CXX object CMakeFiles/lights_driver_node.dir/rclcpp_components/node_main_lights_driver_node.cpp.o[0m
+[22.903s] [ 23%] [32m[1mLinking CXX executable lights_driver_node[0m
+[23.031s] [ 23%] Built target lights_driver_node
+[23.075s] [ 28%] [32mBuilding CXX object CMakeFiles/lights_controller_node.dir/rclcpp_components/node_main_lights_controller_node.cpp.o[0m
+[27.306s] [ 33%] [32m[1mLinking CXX executable lights_controller_node[0m
+[27.429s] [ 33%] Built target lights_controller_node
+[27.448s] [ 38%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/inagy/husarion_ws/build/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp /home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights/src/lights_controller_parameters.yaml `[0m
+[28.140s] [ 42%] [34m[1mCreating deprecated header file /home/inagy/husarion_ws/build/husarion_ugv_lights/include/lights_controller_parameters.hpp[0m
+[28.159s] [ 42%] Built target lights_controller_parameters
+[28.177s] [ 47%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/inagy/husarion_ws/build/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp /home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_lights/src/lights_driver_parameters.yaml `[0m
+[28.881s] [ 52%] [34m[1mCreating deprecated header file /home/inagy/husarion_ws/build/husarion_ugv_lights/include/lights_driver_parameters.hpp[0m
+[28.897s] [ 52%] Built target lights_driver_parameters
+[28.942s] [ 57%] [32mBuilding CXX object CMakeFiles/lights_controller_node_component.dir/src/lights_controller_node.cpp.o[0m
+[45.318s] [ 61%] [32mBuilding CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/led_panel.cpp.o[0m
+[45.978s] [ 66%] [32mBuilding CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/segment_converter.cpp.o[0m
+[49.279s] [ 71%] [32mBuilding CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/segment_layer.cpp.o[0m
+[58.232s] [ 76%] [32mBuilding CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/segment_queue_layer.cpp.o[0m
+[66.899s] [ 80%] [32mBuilding CXX object CMakeFiles/lights_controller_node_component.dir/src/led_components/led_segment.cpp.o[0m
+[71.115s] [ 85%] [32m[1mLinking CXX shared library liblights_controller_node_component.so[0m
+[71.330s] [ 85%] Built target lights_controller_node_component
+[71.357s] [ 90%] [32mBuilding CXX object CMakeFiles/lights_driver_node_component.dir/src/lights_driver_node.cpp.o[0m
+[93.320s] [ 95%] [32mBuilding CXX object CMakeFiles/lights_driver_node_component.dir/src/apa102.cpp.o[0m
+[94.213s] [100%] [32m[1mLinking CXX shared library liblights_driver_node_component.so[0m
+[94.445s] [100%] Built target lights_driver_node_component
+[94.488s] Invoked command in '/home/inagy/husarion_ws/build/husarion_ugv_lights' returned '0': AMENT_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3:/home/inagy/turtlebot3_ws/install/turtlebot3_simulations:/home/inagy/turtlebot3_ws/install/turtlebot3_bringup:/home/inagy/turtlebot3_ws/install/turtlebot3_node:/home/inagy/turtlebot3_ws/install/turtlebot3_navigation2:/home/inagy/turtlebot3_ws/install/turtlebot3_fake_node:/home/inagy/turtlebot3_ws/install/turtlebot3_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3_gazebo:/home/inagy/turtlebot3_ws/install/turtlebot3_description:/home/inagy/turtlebot3_ws/install/turtlebot3_cartographer:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/inagy/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inagy/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/inagy/husarion_ws/build/husarion_ugv_lights -- -j4 -l4
+[94.493s] Invoking command in '/home/inagy/husarion_ws/build/husarion_ugv_lights': AMENT_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3:/home/inagy/turtlebot3_ws/install/turtlebot3_simulations:/home/inagy/turtlebot3_ws/install/turtlebot3_bringup:/home/inagy/turtlebot3_ws/install/turtlebot3_node:/home/inagy/turtlebot3_ws/install/turtlebot3_navigation2:/home/inagy/turtlebot3_ws/install/turtlebot3_fake_node:/home/inagy/turtlebot3_ws/install/turtlebot3_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3_gazebo:/home/inagy/turtlebot3_ws/install/turtlebot3_description:/home/inagy/turtlebot3_ws/install/turtlebot3_cartographer:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/inagy/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inagy/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/inagy/husarion_ws/build/husarion_ugv_lights
+[94.510s] -- Install configuration: "Release"
+[94.511s] -- Execute custom install script
+[94.512s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights//plugins.xml
+[94.534s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp
+[94.546s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp
+[94.561s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_controller_parameters.hpp
+[94.561s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/lights_driver_parameters.hpp
+[94.562s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/husarion_ugv_lights/lights_driver_node
+[94.581s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/husarion_ugv_lights/lights_controller_node
+[94.619s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_action_front.png
+[94.635s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_action_rear.png
+[94.660s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_ready_front.png
+[94.690s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/autonomous_ready_rear.png
+[94.720s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/battery_charged_front.png
+[94.734s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/battery_charged_rear.png
+[94.745s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/blinker.png
+[94.755s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charger_inserted_front.png
+[94.779s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charger_inserted_rear.png
+[94.794s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charging_battery_front.png
+[94.804s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/charging_battery_rear.png
+[94.821s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/critical_battery.png
+[94.835s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/empty.png
+[94.848s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/error.png
+[94.871s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/estop_front.png
+[94.898s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/estop_rear.png
+[94.919s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/goal_achieved_front.png
+[94.930s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/goal_achieved_rear.png
+[94.942s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/low_battery.png
+[94.951s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/lynx_animations.svg
+[94.962s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/manual_action_front.png
+[94.973s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/manual_action_rear.png
+[94.993s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/ready_front.png
+[95.007s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/lynx/ready_rear.png
+[95.031s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_action_front.png
+[95.041s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_action_rear.png
+[95.053s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_ready_front.png
+[95.066s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/autonomous_ready_rear.png
+[95.086s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/battery_charged_front.png
+[95.105s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/battery_charged_rear.png
+[95.121s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/blinker.png
+[95.133s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charger_inserted_front.png
+[95.148s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charger_inserted_rear.png
+[95.159s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charging_battery_front.png
+[95.170s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/charging_battery_rear.png
+[95.181s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/critical_battery.png
+[95.191s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/empty.png
+[95.205s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/error.png
+[95.219s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/estop_front.png
+[95.235s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/estop_rear.png
+[95.253s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/goal_achieved_front.png
+[95.268s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/goal_achieved_rear.png
+[95.294s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/low_battery.png
+[95.315s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/manual_action_front.png
+[95.333s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/manual_action_rear.png
+[95.350s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/panther_animations.svg
+[95.366s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/ready_front.png
+[95.382s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/animations/panther/ready_rear.png
+[95.401s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/lynx_animations.yaml
+[95.415s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/lynx_driver.yaml
+[95.429s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/panther_animations.yaml
+[95.442s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/panther_driver.yaml
+[95.453s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/config/user_animations.yaml
+[95.469s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/launch/lights.launch.py
+[95.482s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/files/animation.png
+[95.492s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/integration/husarion_ugv_lights.test.py
+[95.504s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_animation.cpp
+[95.522s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_image_animation.cpp
+[95.533s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/animation/test_moving_image_animation.cpp
+[95.545s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_animation.cpp
+[95.558s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_panel.cpp
+[95.571s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_led_segment.cpp
+[95.590s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_segment_converter.cpp
+[95.603s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/led_components/test_segment_layer_interface.cpp
+[95.614s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_apa102.cpp
+[95.626s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_lights_controller_node.cpp
+[95.638s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/test/unit/test_lights_driver_node.cpp
+[95.664s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/animation.hpp
+[95.679s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/image_animation.hpp
+[95.687s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/animation/moving_image_animation.hpp
+[95.698s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/apa102.hpp
+[95.711s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_animation.hpp
+[95.722s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_panel.hpp
+[95.739s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/led_segment.hpp
+[95.762s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_converter.hpp
+[95.773s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_layer.hpp
+[95.786s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_layer_interface.hpp
+[95.798s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/led_components/segment_queue_layer.hpp
+[95.814s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/lights_controller_node.hpp
+[95.828s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/include/husarion_ugv_lights/husarion_ugv_lights/lights_driver_node.hpp
+[95.842s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/library_path.sh
+[95.855s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/library_path.dsv
+[95.873s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights//plugins.xml
+[95.873s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_lights
+[95.899s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_lights
+[95.920s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/ament_prefix_path.sh
+[95.934s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/ament_prefix_path.dsv
+[95.946s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/path.sh
+[95.955s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/environment/path.dsv
+[95.965s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.bash
+[95.975s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.sh
+[95.997s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.zsh
+[96.009s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/local_setup.dsv
+[96.023s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/package.dsv
+[96.033s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/packages/husarion_ugv_lights
+[96.044s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/husarion_ugv_lights__pluginlib__plugin/husarion_ugv_lights
+[96.054s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/ament_index/resource_index/rclcpp_components/husarion_ugv_lights
+[96.064s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_dependencies-extras.cmake
+[96.079s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_include_directories-extras.cmake
+[96.105s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/ament_cmake_export_targets-extras.cmake
+[96.118s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/husarion_ugv_lightsConfig.cmake
+[96.129s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/husarion_ugv_lightsConfig-version.cmake
+[96.148s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/package.xml
+[96.158s] -- Installing: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/libanimation_plugins.so
+[96.161s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/husarion_ugv_lights/lib/libanimation_plugins.so" to ""
+[96.161s] -- Installing: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_driver_node_component.so
+[96.173s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_driver_node_component.so" to ""
+[96.173s] -- Installing: /home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_controller_node_component.so
+[96.176s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/husarion_ugv_lights/lib/liblights_controller_node_component.so" to ""
+[96.178s] -- Installing: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport.cmake
+[96.181s] -- Installing: /home/inagy/husarion_ws/install/husarion_ugv_lights/share/husarion_ugv_lights/cmake/export_husarion_ugv_lightsExport-release.cmake
+[96.205s] Invoked command in '/home/inagy/husarion_ws/build/husarion_ugv_lights' returned '0': AMENT_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inagy/husarion_ws/install/husarion_ugv_utils:/home/inagy/husarion_ws/install/husarion_ugv_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3:/home/inagy/turtlebot3_ws/install/turtlebot3_simulations:/home/inagy/turtlebot3_ws/install/turtlebot3_bringup:/home/inagy/turtlebot3_ws/install/turtlebot3_node:/home/inagy/turtlebot3_ws/install/turtlebot3_navigation2:/home/inagy/turtlebot3_ws/install/turtlebot3_fake_node:/home/inagy/turtlebot3_ws/install/turtlebot3_msgs:/home/inagy/turtlebot3_ws/install/turtlebot3_gazebo:/home/inagy/turtlebot3_ws/install/turtlebot3_description:/home/inagy/turtlebot3_ws/install/turtlebot3_cartographer:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/inagy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/inagy/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inagy/husarion_ws/install/husarion_ugv_utils/lib/python3.12/site-packages:/home/inagy/husarion_ws/install/husarion_ugv_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/inagy/husarion_ws/build/husarion_ugv_lights

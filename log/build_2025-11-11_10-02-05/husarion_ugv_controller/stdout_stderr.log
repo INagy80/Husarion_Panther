@@ -1,0 +1,22 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/config/WH01_controller.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/config/WH02_controller.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/config/WH04_controller.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/config/WH05_controller.yaml
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/launch/controller.launch.py
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_controller
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_controller
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/environment/path.sh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/environment/path.dsv
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/local_setup.bash
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/local_setup.sh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/local_setup.zsh
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/local_setup.dsv
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/package.dsv
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/ament_index/resource_index/packages/husarion_ugv_controller
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/cmake/husarion_ugv_controllerConfig.cmake
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/cmake/husarion_ugv_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_controller/share/husarion_ugv_controller/package.xml

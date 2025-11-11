@@ -1,0 +1,259 @@
+[0.041s] Invoking command in '/home/inagy/husarion_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/inagy/husarion_ws/src/behaviortree_ros2/btcpp_ros2_interfaces -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/inagy/husarion_ws/install/btcpp_ros2_interfaces
+[0.208s] -- The C compiler identification is GNU 13.3.0
+[0.326s] -- The CXX compiler identification is GNU 13.3.0
+[0.359s] -- Detecting C compiler ABI info
+[0.569s] -- Detecting C compiler ABI info - done
+[0.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.595s] -- Detecting C compile features
+[0.595s] -- Detecting C compile features - done
+[0.622s] -- Detecting CXX compiler ABI info
+[0.898s] -- Detecting CXX compiler ABI info - done
+[0.930s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.931s] -- Detecting CXX compile features
+[0.934s] -- Detecting CXX compile features - done
+[0.953s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.305s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.524s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.872s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.283s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.272s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.629s] -- Found PythonExtra: /usr/bin/python3  
+[6.415s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.500s] -- Configuring done (6.4s)
+[6.546s] -- Generating done (0.0s)
+[6.557s] -- Build files have been written to: /home/inagy/husarion_ws/build/btcpp_ros2_interfaces
+[6.598s] Invoked command in '/home/inagy/husarion_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/inagy/husarion_ws/src/behaviortree_ros2/btcpp_ros2_interfaces -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/inagy/husarion_ws/install/btcpp_ros2_interfaces
+[6.599s] Invoking command in '/home/inagy/husarion_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inagy/husarion_ws/build/btcpp_ros2_interfaces -- -j4 -l4
+[6.704s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.230s] [  1%] Built target btcpp_ros2_interfaces__rosidl_generator_type_description
+[7.286s] [  1%] Built target ament_cmake_python_symlink_btcpp_ros2_interfaces
+[7.311s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.983s] [  5%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/msg/detail/node_status__description.c.o[0m
+[9.061s] [  7%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/msg/detail/node_status__functions.c.o[0m
+[9.304s] [  9%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/msg/detail/node_status__type_support.c.o[0m
+[9.372s] [ 11%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/execute_tree__description.c.o[0m
+[9.794s] [ 12%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/execute_tree__functions.c.o[0m
+[11.284s] [ 14%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.c.o[0m
+[11.425s] [ 16%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/sleep__description.c.o[0m
+[11.915s] [ 18%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/sleep__functions.c.o[0m
+[12.994s] [ 20%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/btcpp_ros2_interfaces/action/detail/sleep__type_support.c.o[0m
+[13.114s] [ 22%] [32m[1mLinking C shared library libbtcpp_ros2_interfaces__rosidl_generator_c.so[0m
+[13.194s] [ 22%] Built target btcpp_ros2_interfaces__rosidl_generator_c
+[13.584s] running egg_info
+[13.586s] creating btcpp_ros2_interfaces.egg-info
+[13.604s] writing btcpp_ros2_interfaces.egg-info/PKG-INFO
+[13.605s] writing dependency_links to btcpp_ros2_interfaces.egg-info/dependency_links.txt
+[13.605s] writing top-level names to btcpp_ros2_interfaces.egg-info/top_level.txt
+[13.605s] writing manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[13.680s] reading manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[13.681s] writing manifest file 'btcpp_ros2_interfaces.egg-info/SOURCES.txt'
+[13.719s] [ 22%] Built target ament_cmake_python_build_btcpp_ros2_interfaces_egg
+[13.744s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.608s] [ 25%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/msg/detail/node_status__type_support.c.o[0m
+[14.650s] [ 27%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.c.o[0m
+[14.797s] [ 29%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/action/detail/sleep__type_support.c.o[0m
+[14.921s] [ 31%] [32m[1mLinking C shared library libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[14.974s] [ 31%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_c
+[15.000s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.744s] [ 35%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/btcpp_ros2_interfaces/msg/node_status__type_support.cpp.o[0m
+[15.832s] [ 37%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/btcpp_ros2_interfaces/action/execute_tree__type_support.cpp.o[0m
+[15.988s] [ 38%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/btcpp_ros2_interfaces/action/sleep__type_support.cpp.o[0m
+[16.074s] [ 40%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_c.so[0m
+[16.161s] [ 40%] Built target btcpp_ros2_interfaces__rosidl_typesupport_c
+[16.192s] [ 42%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.360s] [ 44%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/msg/detail/node_status__type_support_c.cpp.o[0m
+[17.950s] [ 46%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/action/detail/sleep__type_support_c.cpp.o[0m
+[19.115s] [ 48%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/btcpp_ros2_interfaces/action/detail/execute_tree__type_support_c.cpp.o[0m
+[20.592s] [ 50%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[20.697s] [ 50%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[20.733s] [ 51%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.210s] [ 51%] Built target btcpp_ros2_interfaces__cpp
+[22.225s] [ 53%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.020s] [ 55%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/btcpp_ros2_interfaces/msg/node_status__type_support.cpp.o[0m
+[23.465s] [ 57%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/btcpp_ros2_interfaces/action/execute_tree__type_support.cpp.o[0m
+[24.615s] [ 59%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/btcpp_ros2_interfaces/action/sleep__type_support.cpp.o[0m
+[25.450s] [ 61%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_cpp.so[0m
+[25.555s] [ 61%] Built target btcpp_ros2_interfaces__rosidl_typesupport_cpp
+[25.597s] [ 62%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[26.316s] [ 64%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/btcpp_ros2_interfaces/msg/detail/node_status__type_support.cpp.o[0m
+[26.714s] [ 66%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/btcpp_ros2_interfaces/action/detail/sleep__type_support.cpp.o[0m
+[27.976s] [ 68%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.cpp.o[0m
+[29.110s] [ 70%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[29.180s] [ 70%] Built target btcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[29.189s] [ 72%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[30.460s] [ 74%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/btcpp_ros2_interfaces/msg/detail/dds_fastrtps/node_status__type_support.cpp.o[0m
+[31.210s] [ 75%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/btcpp_ros2_interfaces/action/detail/dds_fastrtps/sleep__type_support.cpp.o[0m
+[33.122s] [ 77%] [32mBuilding CXX object CMakeFiles/btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/btcpp_ros2_interfaces/action/detail/dds_fastrtps/execute_tree__type_support.cpp.o[0m
+[35.090s] [ 79%] [32m[1mLinking CXX shared library libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[35.167s] [ 79%] Built target btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[35.190s] [ 79%] Built target btcpp_ros2_interfaces
+[35.210s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.178s] [ 81%] Built target btcpp_ros2_interfaces__py
+[37.198s] [ 83%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/btcpp_ros2_interfaces/msg/_node_status_s.c.o[0m
+[37.410s] [ 85%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/btcpp_ros2_interfaces/action/_sleep_s.c.o[0m
+[38.153s] [ 87%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/btcpp_ros2_interfaces/action/_execute_tree_s.c.o[0m
+[38.718s] [ 88%] [32m[1mLinking C shared library libbtcpp_ros2_interfaces__rosidl_generator_py.so[0m
+[38.772s] [ 88%] Built target btcpp_ros2_interfaces__rosidl_generator_py
+[38.806s] [ 90%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.426s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[39.489s] [ 92%] Built target btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c
+[39.525s] [ 94%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[40.188s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.so[0m
+[40.241s] [ 96%] Built target btcpp_ros2_interfaces_s__rosidl_typesupport_c
+[40.298s] [ 98%] [32mBuilding C object CMakeFiles/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[41.041s] [100%] [32m[1mLinking C shared module rosidl_generator_py/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[41.106s] [100%] Built target btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c
+[41.145s] Invoked command in '/home/inagy/husarion_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inagy/husarion_ws/build/btcpp_ros2_interfaces -- -j4 -l4
+[41.146s] Invoking command in '/home/inagy/husarion_ws/build/btcpp_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inagy/husarion_ws/build/btcpp_ros2_interfaces
+[41.169s] -- Install configuration: "Release"
+[41.172s] -- Execute custom install script
+[41.172s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/btcpp_ros2_interfaces
+[41.190s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/msg/NodeStatus.json
+[41.215s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/ExecuteTree.json
+[41.235s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/Sleep.json
+[41.261s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__functions.h
+[41.290s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__struct.h
+[41.312s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.h
+[41.346s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__functions.h
+[41.373s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__struct.h
+[41.390s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.h
+[41.411s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/execute_tree.h
+[41.428s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/sleep.h
+[41.448s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__functions.h
+[41.466s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__struct.h
+[41.477s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__type_support.h
+[41.493s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/node_status.h
+[41.504s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[41.516s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/library_path.sh
+[41.533s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/library_path.dsv
+[41.550s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_fastrtps_c.h
+[41.565s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_fastrtps_c.h
+[41.577s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_fastrtps_c.h
+[41.590s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.603s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_introspection_c.h
+[41.616s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_introspection_c.h
+[41.632s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_introspection_c.h
+[41.644s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[41.659s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__builder.hpp
+[41.677s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__struct.hpp
+[41.690s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__traits.hpp
+[41.703s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__type_support.hpp
+[41.718s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__builder.hpp
+[41.734s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__struct.hpp
+[41.746s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__traits.hpp
+[41.760s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__type_support.hpp
+[41.776s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/execute_tree.hpp
+[41.788s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/sleep.hpp
+[41.799s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__builder.hpp
+[41.818s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__struct.hpp
+[41.833s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__traits.hpp
+[41.843s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__type_support.hpp
+[41.856s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/node_status.hpp
+[41.874s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[41.886s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_fastrtps_cpp.hpp
+[41.897s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_fastrtps_cpp.hpp
+[41.907s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_fastrtps_cpp.hpp
+[41.920s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[41.934s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/execute_tree__rosidl_typesupport_introspection_cpp.hpp
+[41.946s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/action/detail/sleep__rosidl_typesupport_introspection_cpp.hpp
+[41.962s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/include/btcpp_ros2_interfaces/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_introspection_cpp.hpp
+[41.987s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/pythonpath.sh
+[42.005s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/pythonpath.dsv
+[42.030s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces-0.2.0-py3.12.egg-info/PKG-INFO
+[42.053s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces-0.2.0-py3.12.egg-info/SOURCES.txt
+[42.080s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces-0.2.0-py3.12.egg-info/dependency_links.txt
+[42.107s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces-0.2.0-py3.12.egg-info/top_level.txt
+[42.130s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/__init__.py
+[42.147s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_c.c
+[42.157s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[42.177s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/_btcpp_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[42.186s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/__init__.py
+[42.197s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/_execute_tree.py
+[42.210s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/_execute_tree_s.c
+[42.222s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/_sleep.py
+[42.233s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/_sleep_s.c
+[42.242s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.so
+[42.251s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[42.270s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.so
+[42.281s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/msg/__init__.py
+[42.290s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/msg/_node_status.py
+[42.310s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/msg/_node_status_s.c
+[42.322s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[42.322s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_introspection_c.so
+[42.322s] -- Up-to-date symlink: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/btcpp_ros2_interfaces_s__rosidl_typesupport_c.so
+[42.323s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/msg/NodeStatus.idl
+[42.339s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/ExecuteTree.idl
+[42.353s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/Sleep.idl
+[42.365s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/msg/NodeStatus.msg
+[42.380s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/ExecuteTree.action
+[42.391s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/action/Sleep.action
+[42.404s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/btcpp_ros2_interfaces
+[42.415s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/btcpp_ros2_interfaces
+[42.426s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/ament_prefix_path.sh
+[42.437s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/ament_prefix_path.dsv
+[42.447s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/path.sh
+[42.457s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/environment/path.dsv
+[42.481s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.bash
+[42.504s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.sh
+[42.543s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.zsh
+[42.558s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/local_setup.dsv
+[42.570s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.dsv
+[42.599s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/ament_index/resource_index/packages/btcpp_ros2_interfaces
+[42.624s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake-extras.cmake
+[42.645s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.668s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.698s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[42.723s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[42.743s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[42.753s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.767s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfacesConfig.cmake
+[42.794s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfacesConfig-version.cmake
+[42.815s] -- Symlinking: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/package.xml
+[42.828s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_c.so
+[42.830s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_c.so" to ""
+[42.833s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.so
+[42.835s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[42.835s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_c.so
+[42.836s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[42.836s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_c.so
+[42.837s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_c.so" to ""
+[42.838s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[42.842s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[42.842s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.so
+[42.842s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[42.842s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_cpp.so
+[42.842s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_typesupport_cpp.so" to ""
+[43.015s] Listing '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces'...
+[43.015s] Compiling '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/__init__.py'...
+[43.015s] Listing '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action'...
+[43.015s] Compiling '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/__init__.py'...
+[43.015s] Compiling '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/_execute_tree.py'...
+[43.015s] Compiling '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/action/_sleep.py'...
+[43.015s] Listing '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/msg'...
+[43.015s] Compiling '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/msg/__init__.py'...
+[43.015s] Compiling '/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/python3.12/site-packages/btcpp_ros2_interfaces/msg/_node_status.py'...
+[43.023s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_py.so
+[43.024s] -- Set non-toolchain portion of runtime path of "/home/inagy/husarion_ws/install/btcpp_ros2_interfaces/lib/libbtcpp_ros2_interfaces__rosidl_generator_py.so" to ""
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cExport.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cExport-release.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cExport.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cExport-release.cmake
+[43.024s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_cppExport.cmake
+[43.025s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[43.025s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[43.025s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[43.025s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[43.025s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cppExport.cmake
+[43.026s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/btcpp_ros2_interfaces__rosidl_typesupport_cppExport-release.cmake
+[43.026s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_pyExport.cmake
+[43.026s] -- Installing: /home/inagy/husarion_ws/install/btcpp_ros2_interfaces/share/btcpp_ros2_interfaces/cmake/export_btcpp_ros2_interfaces__rosidl_generator_pyExport-release.cmake
+[43.028s] Invoked command in '/home/inagy/husarion_ws/build/btcpp_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inagy/husarion_ws/build/btcpp_ros2_interfaces

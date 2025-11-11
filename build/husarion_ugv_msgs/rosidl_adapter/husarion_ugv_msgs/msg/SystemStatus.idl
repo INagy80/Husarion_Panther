@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/SystemStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module husarion_ugv_msgs {
+  module msg {
+    struct SystemStatus {
+      std_msgs::msg::Header header;
+
+      sequence<float> cpu_percent;
+
+      float cpu_temp;
+
+      float avg_load_percent;
+
+      float ram_usage_percent;
+
+      float disc_usage_percent;
+    };
+  };
+};

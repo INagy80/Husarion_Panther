@@ -1,0 +1,1 @@
+/home/inagy/husarion_ws/build/btcpp_ros2_interfaces/rosidl_typesupport_introspection_c/btcpp_ros2_interfaces/msg/detail/node_status__rosidl_typesupport_introspection_c.h

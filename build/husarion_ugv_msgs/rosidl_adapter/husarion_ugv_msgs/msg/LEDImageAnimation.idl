@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/LEDImageAnimation.msg
+// generated code does not contain a copyright notice
+
+
+module husarion_ugv_msgs {
+  module msg {
+    struct LEDImageAnimation {
+      string image;
+
+      float duration;
+
+      float brightness;
+
+      uint8 repeat;
+
+      uint32 color;
+    };
+  };
+};

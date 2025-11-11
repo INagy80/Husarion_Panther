@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_c.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/_husarion_ugv_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/__init__.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_charging_status.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_charging_status_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_driver_state.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_driver_state_named.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_driver_state_named_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_driver_state_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_fault_flag.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_fault_flag_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_io_state.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_io_state_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_led_animation.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_led_animation_queue.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_led_animation_queue_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_led_animation_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_led_image_animation.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_led_image_animation_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_robot_driver_state.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_robot_driver_state_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_runtime_error.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_runtime_error_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_script_flag.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_script_flag_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_system_status.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/msg/_system_status_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/srv/__init__.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_animation.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_animation_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_brightness.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_brightness_s.c"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_image_animation.py"
+  "/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_py/husarion_ugv_msgs/srv/_set_led_image_animation_s.c"
+  "CMakeFiles/husarion_ugv_msgs__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/husarion_ugv_msgs__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

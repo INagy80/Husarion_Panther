@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "husarion_ugv_msgs/msg/LEDAnimationQueue",
+      "fields": [
+        {
+          "name": "queue",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "husarion_ugv_msgs/msg/LEDAnimationQueue",
+      "hash_string": "RIHS01_51f6539ac0475e1e9954e94269bb389af49d0de64ad87df326d5aa08f22f304e"
+    }
+  ]
+}

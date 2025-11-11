@@ -1,0 +1,1 @@
+/home/inagy/husarion_ws/build/husarion_ugv_msgs/ament_cmake_core/husarion_ugv_msgsConfig-version.cmake

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/RobotDriverState.msg
+// generated code does not contain a copyright notice
+
+#include "husarion_ugv_msgs/msg/DriverStateNamed.idl"
+#include "std_msgs/msg/Header.idl"
+
+module husarion_ugv_msgs {
+  module msg {
+    struct RobotDriverState {
+      std_msgs::msg::Header header;
+
+      sequence<husarion_ugv_msgs::msg::DriverStateNamed> driver_states;
+
+      boolean error;
+
+      boolean write_pdo_cmds_error;
+
+      boolean read_pdo_motor_states_error;
+
+      boolean read_pdo_driver_state_error;
+    };
+  };
+};

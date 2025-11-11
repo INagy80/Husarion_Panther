@@ -1,0 +1,117 @@
+[0.020s] Invoking command in '/home/inagy/husarion_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/inagy/husarion_ws/src/husarion_gz_worlds -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/inagy/husarion_ws/install/husarion_gz_worlds
+[0.164s] -- The C compiler identification is GNU 13.3.0
+[0.247s] -- The CXX compiler identification is GNU 13.3.0
+[0.318s] -- Detecting C compiler ABI info
+[0.543s] -- Detecting C compiler ABI info - done
+[0.563s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.563s] -- Detecting C compile features
+[0.564s] -- Detecting C compile features - done
+[0.587s] -- Detecting CXX compiler ABI info
+[0.843s] -- Detecting CXX compiler ABI info - done
+[0.878s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.878s] -- Detecting CXX compile features
+[0.882s] -- Detecting CXX compile features - done
+[0.895s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.260s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.671s] -- Configuring done (1.6s)
+[1.678s] -- Generating done (0.0s)
+[1.681s] -- Build files have been written to: /home/inagy/husarion_ws/build/husarion_gz_worlds
+[1.697s] Invoked command in '/home/inagy/husarion_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/inagy/husarion_ws/src/husarion_gz_worlds -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/inagy/husarion_ws/install/husarion_gz_worlds
+[1.697s] Invoking command in '/home/inagy/husarion_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inagy/husarion_ws/build/husarion_gz_worlds -- -j4 -l4
+[1.767s] Invoked command in '/home/inagy/husarion_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inagy/husarion_ws/build/husarion_gz_worlds -- -j4 -l4
+[1.767s] Invoking command in '/home/inagy/husarion_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inagy/husarion_ws/build/husarion_gz_worlds
+[1.785s] -- Install configuration: "Release"
+[1.786s] -- Execute custom install script
+[1.790s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/config/teleop.config
+[1.809s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/launch/gz_sim.launch.py
+[1.835s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/meshes/conference_table.stl
+[1.853s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.config
+[1.872s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.sdf
+[1.884s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/meshes/door.stl
+[1.900s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.config
+[1.918s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.sdf
+[1.926s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/HusarionLogo/meshes/husarion_logo.dae
+[1.935s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/meshes/kitchen.stl
+[1.947s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.config
+[1.957s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.sdf
+[1.964s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/meshes/laptop.stl
+[1.972s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.config
+[1.980s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.sdf
+[1.990s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/astra.dae
+[1.998s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/box.dae
+[2.009s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/rplidar.dae
+[2.018s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/upper.dae
+[2.027s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/wheel.dae
+[2.036s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.config
+[2.058s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.sdf
+[2.076s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/black_concrete.png
+[2.085s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.mtl
+[2.097s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.obj
+[2.116s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.mtl
+[2.129s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.obj
+[2.147s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.mtl
+[2.179s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.obj
+[2.204s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.mtl
+[2.217s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.obj
+[2.228s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.mtl
+[2.238s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.obj
+[2.251s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.mtl
+[2.265s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.obj
+[2.277s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.mtl
+[2.286s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.obj
+[2.304s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.mtl
+[2.328s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.obj
+[2.353s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.mtl
+[2.386s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.obj
+[2.417s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.mtl
+[2.429s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.obj
+[2.440s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.mtl
+[2.451s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.obj
+[2.475s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.mtl
+[2.489s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.obj
+[2.509s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.mtl
+[2.547s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.obj
+[2.553s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.mtl
+[2.573s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.obj
+[2.602s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/model.material
+[2.619s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.mtl
+[2.631s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.obj
+[2.643s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.mtl
+[2.664s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.obj
+[2.704s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_carpet.png
+[2.720s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_tiles.png
+[2.737s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_wall.png
+[2.747s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood1.png
+[2.779s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood2.png
+[2.789s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.config
+[2.804s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.sdf
+[2.816s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/meshes/tv.stl
+[2.824s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.config
+[2.837s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.sdf
+[2.849s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/meshes/water_dispenser.dae
+[2.876s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.config
+[2.897s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.sdf
+[2.917s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/empty_with_plugins.sdf
+[2.928s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_office.sdf
+[2.955s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_world.sdf
+[2.994s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/sonoma_raceway.sdf
+[3.019s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.pgm
+[3.041s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.yaml
+[3.052s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/husarion_gz_worlds.sh
+[3.077s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/ament_index/resource_index/package_run_dependencies/husarion_gz_worlds
+[3.101s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/ament_index/resource_index/parent_prefix_path/husarion_gz_worlds
+[3.104s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.sh
+[3.120s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.dsv
+[3.125s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.sh
+[3.136s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.dsv
+[3.146s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.bash
+[3.157s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.sh
+[3.172s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.zsh
+[3.187s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.dsv
+[3.190s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.dsv
+[3.202s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/ament_index/resource_index/packages/husarion_gz_worlds
+[3.209s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig.cmake
+[3.220s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig-version.cmake
+[3.230s] -- Symlinking: /home/inagy/husarion_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.xml
+[3.242s] Invoked command in '/home/inagy/husarion_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/inagy/turtlebot3_ws/install/turtlebot3_teleop:/home/inagy/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inagy/husarion_ws/build/husarion_gz_worlds

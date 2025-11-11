@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from husarion_ugv_msgs/msg/LEDAnimationQueue.msg
+// generated code does not contain a copyright notice
+
+
+module husarion_ugv_msgs {
+  module msg {
+    struct LEDAnimationQueue {
+      sequence<string> queue;
+    };
+  };
+};

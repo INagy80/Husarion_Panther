@@ -1,0 +1,141 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found behaviortree_cpp: 4.7.1 (/opt/ros/jazzy/share/behaviortree_cpp/cmake)
+-- Found behaviortree_ros2: 0.2.0 (/home/inagy/husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found husarion_ugv_msgs: 2.3.1 (/home/inagy/husarion_ws/install/husarion_ugv_msgs/share/husarion_ugv_msgs/cmake)
+-- Found husarion_ugv_utils: 2.3.1 (/home/inagy/husarion_ws/install/husarion_ugv_utils/share/husarion_ugv_utils/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (2.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/inagy/husarion_ws/build/husarion_ugv_manager
+[  3%] [32mBuilding CXX object CMakeFiles/call_set_bool_service_bt_node.dir/src/plugins/action/call_set_bool_service_node.cpp.o[0m
+[  7%] [32m[1mLinking CXX shared library libcall_set_bool_service_bt_node.so[0m
+[  7%] Built target call_set_bool_service_bt_node
+[ 10%] [32mBuilding CXX object CMakeFiles/signal_shutdown_bt_node.dir/src/plugins/action/signal_shutdown_node.cpp.o[0m
+[ 14%] [32m[1mLinking CXX shared library libsignal_shutdown_bt_node.so[0m
+[ 14%] Built target signal_shutdown_bt_node
+[ 17%] [32mBuilding CXX object CMakeFiles/shutdown_hosts_from_file_bt_node.dir/src/plugins/action/shutdown_hosts_from_file_node.cpp.o[0m
+[ 21%] [32m[1mLinking CXX shared library libshutdown_hosts_from_file_bt_node.so[0m
+[ 21%] Built target shutdown_hosts_from_file_bt_node
+[ 25%] [32mBuilding CXX object CMakeFiles/check_bool_msg_bt_node.dir/src/plugins/condition/check_bool_msg.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libcheck_bool_msg_bt_node.so[0m
+[ 28%] Built target check_bool_msg_bt_node
+[ 32%] [32mBuilding CXX object CMakeFiles/check_joy_msg_bt_node.dir/src/plugins/condition/check_joy_msg.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library libcheck_joy_msg_bt_node.so[0m
+[ 35%] Built target check_joy_msg_bt_node
+[ 39%] [32mBuilding CXX object CMakeFiles/tick_after_timeout_bt_node.dir/src/plugins/decorator/tick_after_timeout_node.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libtick_after_timeout_bt_node.so[0m
+[ 42%] Built target tick_after_timeout_bt_node
+[ 46%] [32mBuilding CXX object CMakeFiles/execute_command_bt_node.dir/src/plugins/action/execute_command_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libexecute_command_bt_node.so[0m
+[ 50%] Built target execute_command_bt_node
+[ 53%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/inagy/husarion_ws/build/husarion_ugv_manager/include/husarion_ugv_manager/safety_manager_parameters.hpp /home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager/src/safety_manager_parameters.yaml `[0m
+[ 57%] [34m[1mCreating deprecated header file /home/inagy/husarion_ws/build/husarion_ugv_manager/include/safety_manager_parameters.hpp[0m
+[ 57%] Built target safety_manager_parameters
+[ 60%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/inagy/husarion_ws/build/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_parameters.hpp /home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager/src/lights_manager_parameters.yaml `[0m
+[ 64%] [34m[1mCreating deprecated header file /home/inagy/husarion_ws/build/husarion_ugv_manager/include/lights_manager_parameters.hpp[0m
+[ 64%] Built target lights_manager_parameters
+[ 67%] [32mBuilding CXX object CMakeFiles/call_set_led_animation_service_bt_node.dir/src/plugins/action/call_set_led_animation_service_node.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libcall_set_led_animation_service_bt_node.so[0m
+[ 71%] Built target call_set_led_animation_service_bt_node
+[ 75%] [32mBuilding CXX object CMakeFiles/call_trigger_service_bt_node.dir/src/plugins/action/call_trigger_service_node.cpp.o[0m
+[ 78%] [32m[1mLinking CXX shared library libcall_trigger_service_bt_node.so[0m
+[ 78%] Built target call_trigger_service_bt_node
+[ 82%] [32mBuilding CXX object CMakeFiles/safety_manager_node.dir/src/safety_manager_node_main.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/safety_manager_node.dir/src/safety_manager_node.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable safety_manager_node[0m
+[ 89%] Built target safety_manager_node
+[ 92%] [32mBuilding CXX object CMakeFiles/lights_manager_node.dir/src/lights_manager_node_main.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/lights_manager_node.dir/src/lights_manager_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lights_manager_node[0m
+[100%] Built target lights_manager_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_parameters.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/safety_manager_parameters.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/lights_manager_parameters.hpp
+-- Up-to-date symlink: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/safety_manager_parameters.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libcall_set_bool_service_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libcall_trigger_service_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libcall_set_led_animation_service_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libsignal_shutdown_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libshutdown_hosts_from_file_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libcheck_bool_msg_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libcheck_joy_msg_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libtick_after_timeout_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/libexecute_command_bt_node.so
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/husarion_ugv_manager/safety_manager_node
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/lib/husarion_ugv_manager/lights_manager_node
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/LightsBT.btproj
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/SafetyBT.btproj
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/lights.xml
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/safety.xml
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/behavior_trees/shutdown.xml
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/config/lights_manager.yaml
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/config/safety_manager.yaml
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/config/shutdown_hosts.yaml
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/launch/manager.launch.py
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/behavior_tree_manager.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/behavior_tree_utils.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/lights_manager_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/call_set_bool_service_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/call_set_led_animation_service_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/call_trigger_service_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/execute_command_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/shutdown_hosts_from_file_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/action/signal_shutdown_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/command_handler.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/condition/check_bool_msg.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/condition/check_joy_msg.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/decorator/tick_after_timeout_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/shutdown_host.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/plugins/shutdown_hosts_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/safety_manager_node.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/test/utils/behavior_tree_test_utils.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/include/husarion_ugv_manager/husarion_ugv_manager/test/utils/plugin_test_utils.hpp
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/ament_index/resource_index/package_run_dependencies/husarion_ugv_manager
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/ament_index/resource_index/parent_prefix_path/husarion_ugv_manager
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/ament_prefix_path.sh
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/ament_prefix_path.dsv
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/path.sh
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/environment/path.dsv
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.bash
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.sh
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.zsh
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/local_setup.dsv
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/package.dsv
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/ament_index/resource_index/packages/husarion_ugv_manager
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/husarion_ugv_managerConfig.cmake
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/cmake/husarion_ugv_managerConfig-version.cmake
+-- Symlinking: /home/inagy/husarion_ws/install/husarion_ugv_manager/share/husarion_ugv_manager/package.xml

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "husarion_ugv_msgs__py",
+		"source" : "/home/inagy/husarion_ws/build/husarion_ugv_msgs/husarion_ugv_msgs__py"
+	}
+}

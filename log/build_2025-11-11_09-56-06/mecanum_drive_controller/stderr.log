@@ -1,0 +1,120 @@
+In file included from [01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:45[m[K,
+                 from [01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:30[m[K:
+[01m[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:40:151:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: 'RealtimeBox' is deprecated. Please update your code to use 'realtime_thread_safe_box.hpp' header, and class name 'RealtimeThreadSafeBox' instead.[m[K’
+   40 | pp' header, and class name 'RealtimeThreadSafeBox' instead."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type mecanum_drive_controller::MecanumDriveController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:115:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::[01;32m[Kget[m[K(T&) const [35m[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K[m[K’ is deprecated: Use get(const std::function<void(const T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  115 |   [01;35m[Kreceived_velocity_msg_ptr_.get(last_command_msg)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:36[m[K:
+[01m[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:353:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  353 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kget[m[K(T & in) const
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:152:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  152 | back = [01;35m[Kregistered_front_left_wheel_handle_->feedback.get().get_value()[m[K;
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30[m[K,
+                 from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:34[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:153:103:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  153 | ack = [01;35m[Kregistered_front_right_wheel_handle_->feedback.get().get_value()[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:154:99:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  154 | dback = [01;35m[Kregistered_rear_left_wheel_handle_->feedback.get().get_value()[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:155:101:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  155 | back = [01;35m[Kregistered_rear_right_wheel_handle_->feedback.get().get_value()[m[K;
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:264:64:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  264 | [01;35m[Kegistered_front_left_wheel_handle_->velocity.get().set_value(velocity_front_left)[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:265:65:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  265 | [01;35m[Kgistered_front_right_wheel_handle_->velocity.get().set_value(velocity_front_right)[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:266:63:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  266 | [01;35m[Kregistered_rear_left_wheel_handle_->velocity.get().set_value(velocity_rear_left)[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:267:64:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  267 | [01;35m[Kegistered_rear_right_wheel_handle_->velocity.get().set_value(velocity_rear_right)[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:410:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::[01;32m[Kset[m[K(const T&) [35m[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K[m[K’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  410 |   [01;35m[Kreceived_velocity_msg_ptr_.set(std::make_shared<Twist>(empty_twist))[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:273:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  273 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kset[m[K(const T & value)
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In lambda function:
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:430:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::[01;32m[Kset[m[K(const T&) [35m[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K[m[K’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  430 |           [01;35m[Kreceived_velocity_msg_ptr_.set(std::move(msg))[m[K;
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:273:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  273 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kset[m[K(const T & value)
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn mecanum_drive_controller::MecanumDriveController::[01;32m[Kon_cleanup[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:517:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::[01;32m[Kset[m[K(const T&) [35m[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K[m[K’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  517 |   [01;35m[Kreceived_velocity_msg_ptr_.set(std::make_shared<Twist>())[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:273:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  273 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kset[m[K(const T & value)
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:[m[K In member function ‘[01m[Kvoid mecanum_drive_controller::MecanumDriveController::[01;32m[Khalt[m[K()[m[K’:
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:558:64:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  558 |   [01;35m[Kregistered_front_left_wheel_handle_->velocity.get().set_value(0.0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:559:65:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  559 |   [01;35m[Kregistered_front_right_wheel_handle_->velocity.get().set_value(0.0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:560:63:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  560 |   [01;35m[Kregistered_rear_left_wheel_handle_->velocity.get().set_value(0.0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/inagy/husarion_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:561:64:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  561 |   [01;35m[Kregistered_rear_right_wheel_handle_->velocity.get().set_value(0.0)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
