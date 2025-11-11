@@ -1,3 +1,0 @@
-/home/inagy/husarion_ws/install/behaviortree_ros2/lib/libbehaviortree_ros2.a
-/home/inagy/husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2TargetsExport.cmake
-/home/inagy/husarion_ws/install/behaviortree_ros2/share/behaviortree_ros2/cmake/behaviortree_ros2TargetsExport-release.cmake

@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/build/husarion_ugv_lights/ament_cmake_environment_hooks/local_setup.sh

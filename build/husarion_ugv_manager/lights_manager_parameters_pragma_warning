@@ -1,1 +1,0 @@
-#pragma message("#include \"lights_manager_parameters.hpp\" is deprecated. Use #include <husarion_ugv_manager/lights_manager_parameters.hpp> instead.")

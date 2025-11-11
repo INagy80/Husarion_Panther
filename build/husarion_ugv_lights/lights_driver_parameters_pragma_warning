@@ -1,1 +1,0 @@
-#pragma message("#include \"lights_driver_parameters.hpp\" is deprecated. Use #include <husarion_ugv_lights/lights_driver_parameters.hpp> instead.")

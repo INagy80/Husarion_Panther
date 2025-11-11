@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_generator_cpp/husarion_ugv_msgs/msg/robot_driver_state.hpp

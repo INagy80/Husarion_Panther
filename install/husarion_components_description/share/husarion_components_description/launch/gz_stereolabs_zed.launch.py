@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/src/husarion_components_description/launch/gz_stereolabs_zed.launch.py

@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_localization/launch/nmea_navsat.launch.py

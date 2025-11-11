@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/src/husarion_components_description/test/test_components_xacro.py

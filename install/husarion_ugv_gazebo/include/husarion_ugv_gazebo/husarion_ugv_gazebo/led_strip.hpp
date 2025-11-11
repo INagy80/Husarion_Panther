@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_gazebo/include/husarion_ugv_gazebo/led_strip.hpp

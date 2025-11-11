@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/build/husarion_ugv_controller/ament_cmake_core/husarion_ugv_controllerConfig-version.cmake

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/inagy/husarion_ws/build/husarion_ugv_manager/safety_manager_node" "/home/inagy/husarion_ws/build/husarion_ugv_manager/lights_manager_node" "TARGETS" "safety_manager_node" "lights_manager_node" "DESTINATION" "lib/husarion_ugv_manager")

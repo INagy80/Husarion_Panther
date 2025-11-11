@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_manager/include/husarion_ugv_manager/plugins/condition/check_joy_msg.hpp

@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/src/husarion_components_description/launch/gz_kinova_7dof.launch.py

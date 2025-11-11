@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/src/husarion_ugv_ros/husarion_ugv_utils/include/husarion_ugv_utils/ros_utils.hpp

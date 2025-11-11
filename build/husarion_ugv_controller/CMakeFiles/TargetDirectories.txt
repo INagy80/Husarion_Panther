@@ -1,9 +1,0 @@
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/uninstall.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/husarion_ugv_controller_uninstall.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/test.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/edit_cache.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/rebuild_cache.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/list_install_components.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/install.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/install/local.dir
-/home/inagy/husarion_ws/build/husarion_ugv_controller/CMakeFiles/install/strip.dir

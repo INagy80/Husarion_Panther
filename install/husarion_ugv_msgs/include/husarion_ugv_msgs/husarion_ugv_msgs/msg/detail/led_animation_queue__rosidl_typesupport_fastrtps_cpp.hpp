@@ -1,1 +1,0 @@
-/home/inagy/husarion_ws/build/husarion_ugv_msgs/rosidl_typesupport_fastrtps_cpp/husarion_ugv_msgs/msg/detail/led_animation_queue__rosidl_typesupport_fastrtps_cpp.hpp

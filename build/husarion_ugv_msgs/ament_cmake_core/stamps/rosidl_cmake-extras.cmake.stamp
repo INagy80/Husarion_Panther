@@ -1,4 +1,0 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(husarion_ugv_msgs_IDL_FILES "msg/ChargingStatus.idl;msg/DriverState.idl;msg/DriverStateNamed.idl;msg/FaultFlag.idl;msg/IOState.idl;msg/LEDAnimation.idl;msg/LEDAnimationQueue.idl;msg/LEDImageAnimation.idl;msg/RobotDriverState.idl;msg/RuntimeError.idl;msg/ScriptFlag.idl;msg/SystemStatus.idl;srv/SetLEDAnimation.idl;srv/SetLEDBrightness.idl;srv/SetLEDImageAnimation.idl")
-set(husarion_ugv_msgs_INTERFACE_FILES "msg/ChargingStatus.msg;msg/DriverState.msg;msg/DriverStateNamed.msg;msg/FaultFlag.msg;msg/IOState.msg;msg/LEDAnimation.msg;msg/LEDAnimationQueue.msg;msg/LEDImageAnimation.msg;msg/RobotDriverState.msg;msg/RuntimeError.msg;msg/ScriptFlag.msg;msg/SystemStatus.msg;srv/SetLEDAnimation.srv;srv/SetLEDBrightness.srv;srv/SetLEDImageAnimation.srv")
