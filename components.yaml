@@ -1,0 +1,38 @@
+# By default Husarion UGV is loaded without any components.
+
+components: []
+
+# If you want to add for example DEV02, LDR06 and CAM01 to your robot look at the example below:
+
+# components:
+#   - type: DEV02
+
+#   - type: LDR06
+#     parent_link: mount_link
+#     xyz: 0.0 -0.1 0.0
+#     rpy: 0.0 0.0 0.0
+#     device_namespace: second_lidar
+
+#   - type: CAM01
+#     name: camera
+#     parent_link: mount_link
+#     xyz: 0.1 0.0 0.0
+#     rpy: 0.0 0.0 0.0
+#     device_namespace: front_cam
+
+
+components:
+  - type: LDR06
+    parent_link: base_link  # Attach to the main robot body
+    xyz: 0.15 0.0 0.25    # Adjust position (in meters) for LIDAR on the robot
+    rpy: 0.0 0.0 0.0      # No rotation change for the sensor (aligned with base_link)
+    #device_namespace: lidar_front   # Namespace for this LIDAR sensor
+    frequency: 10.0        # Update rate in Hz
+    horizontal_samples: 720  # Number of rays (e.g., 360° full scan with 720 samples)
+    horizontal_fov: 3.14159 # Field of View (in radians) 180°
+    range_min: 0.12        # Minimum range (in meters)
+    range_max: 12.0        # Maximum range (in meters)
+    noise_stddev: 0.01     # Add noise to simulate real-world inaccuracies
+    topic: /scan           # ROS topic to publish the sensor data
+    frame_id: laser_front_link  # The frame to publish for the LIDAR
+
