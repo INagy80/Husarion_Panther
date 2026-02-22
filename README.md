@@ -92,6 +92,10 @@ then add the map to Rviz but we had a problem with the map because we were subsc
 
 
 
+## Custom Exploration and Naviagtion node
+
+![ExNav](Diagrams/Custom%20exploration%20and%20Naviagtion%20Node.png)
+
 ### Nav2 Download 
 
 ```bash
@@ -198,6 +202,9 @@ local_costmap:
 ![nav2_architecture](https://docs.nav2.org/_images/nav2_architecture.png)
 
 
+![nav2](Diagrams/Nav2.png)
+
+
 
 ### explore_lite install
 ```bash
@@ -216,3 +223,8 @@ colcon build --symlink-install
 ros2 launch explore_lite explore.launch.py
 ```
 
+![explore](Diagrams/explore_lite.png)
+
+
+## project Integration
+![Int](Diagrams/Integration.png)
